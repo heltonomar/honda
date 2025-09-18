@@ -11,16 +11,6 @@ body{
     align-items: center;
 }
 
-.botao{
-   background-color: #b30000;
-   text-decoration: none;
-   color: #fff;
-   font-weight: bold;
-   padding: 12px 20px;
-
-}
-
-
 
 /* configuraçao do menu */
 #menu{
@@ -50,6 +40,32 @@ h1{
     font-size: 56px;
     color: #b30000;
 }
+
+.botao{
+    background-color: #b30000;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+ 
+}
+
+
+
+/* estilo SOBRE */
+.box{
+    max-width: 500px;
+
+}
+.box img{
+    width: 100%;
+}
+.box h2{
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
 h2{
     color: #202020;
     font-size: 40px;
@@ -64,16 +80,15 @@ h3{
     text-align: center; /* alinha texto */
 }
 
-/* estilo SOBRE */
-.box{
-    max-width: 500px;
 
-}
-.box img{
-    width: 100%;
-}
-.box h2{
-    font-size: 24px;
-    text-align: left;
-    font-weight: bold;
+@media screen and (max-widht:1024px) {
+    #menu{
+       justify-content: flex-start;
+    }
+    
+    #banner img{
+        width: 100%;
+        height: auto;
+      
+    } 
 }
