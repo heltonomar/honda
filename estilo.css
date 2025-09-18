@@ -91,4 +91,7 @@ h3{
         height: auto;
       
     } 
+    #rapido{
+        flex-direction: column;
+    }
 }
