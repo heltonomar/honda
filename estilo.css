@@ -29,7 +29,9 @@ body{
 #banner{
     width: 100%;
 }
-
+#banner img{
+    width: 100%;
+}
 /* estilo rapido */
 #rapido{
     width: 100%;
@@ -76,23 +78,26 @@ h2{
 h3{
     color: #202020;
     font-size: 20px;
-    /* font-weight: bold; */
-    text-align: center; /* alinha texto */
+    text-align: center; 
 }
 
 
-@media screen and (max-widht:1024px) {
-    #menu{
+@media screen and (max-width:1024px) {
+    #menu img{
        justify-content: flex-start;
     }
     
     #banner img{
-        width: 1024px;
-        height: auto;
-        
+        width: 100%;  
       
     } 
     #rapido{
+        width: 100%;
+        height: auto;
+     
+    }
+    .container{
+        width: 100%;
         flex-direction: column;
     }
 }
