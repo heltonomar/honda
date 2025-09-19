@@ -11,7 +11,15 @@
         <img class="logo" src="image/honda.svg" alt="logo-honda">
     </div>
     <div id="banner">
-        <img src="image/banner.webp" alt="logo-honda">
+        <div id="banner">
+            <picture>
+              <!-- Se a tela for até 768px (mobile), usa essa imagem -->
+              <source srcset="image/banner2.webp" media="(max-width: 768px)">
+              
+              <!-- Caso contrário, usa essa (desktop) -->
+              <img src="image/banner.webp" alt="logo-honda" style="width: 100%;">
+            </picture>
+          </div>
     </div>
     <div id="rapido">
         <div class="container">
